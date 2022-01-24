@@ -138,10 +138,8 @@ span.flicker {
   font-family: "Clip";
   text-transform: uppercase;
   font-size: 6em;
-  color: #ffe6ff;
-  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+  color: #f8fdff;
+  text-shadow: 2px -4px 2rem #0000004d, 0 0 1.5rem #1e52e58f, -0.2rem 0.1rem 1rem #1c65bf4f, 0.2rem 0.1rem 1rem #6765ff59, 0 -0.5rem 2rem #1d5ccf80, 0 0.5rem 3rem #3420d95c;
   animation: shine 2s forwards, flicker 3s infinite;
 }
 
@@ -150,14 +148,14 @@ span.flicker {
   22%,
   36%,
   75% {
-    color: #ffe6ff;
-    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
-      -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
-      0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+    color: #fcf8fc;
+    text-shadow: 0 0 0.6rem #3e09fc34, 0 0 1.5rem #3307f8bd,
+      -0.2rem 0.1rem 1rem #ffee04, 0.2rem 0.1rem 1rem #2606df94,
+      0 -0.5rem 2rem #0e0ae75d, 0 0.5rem 3rem #37ff05;
   }
   28%,
   33% {
-    color: #ff65bd;
+    color: #fafafa;
     text-shadow: none;
   }
   82%,
@@ -173,9 +171,10 @@ span.flicker {
 
 .fast-flicker {
   animation: shine 2s forwards, blink 10s 1s infinite;
+  /* color: #fff; */
 }
 
-@keyframes shine {
+/* @keyframes shine {
   0% {
     color: #6b1839;
     text-shadow: none;
@@ -186,7 +185,7 @@ span.flicker {
       -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
       0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
   }
-}
+} */
 
 @keyframes flicker {
   from {
