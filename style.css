@@ -1,4 +1,7 @@
 
+body{
+  background: #10101E;
+}
 .full_routine{
 	text-align: center;
   font-size: 38px;
@@ -105,3 +108,9 @@ tr{
   border-radius: 3px;
 }
  
+.my_name{
+  color: #fff;text-align: center;font-size: 40px; border: 1px solid #fff;width: 400px;margin: auto;
+}
+.my_name h1{
+  box-shadow: 0 0 0 0 solid #fff;text-align: center;padding: 20px;
+}
