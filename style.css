@@ -116,8 +116,7 @@ tr{
 
 .my_name{
   background-color: #141114;
-
-    linear-gradient(155deg,
+  linear-gradient(155deg,
   black 23px, transparent 23px),
     linear-gradient(335deg, black 23px, transparent 23px),
     linear-gradient(155deg, black 23px, transparent 23px);
@@ -133,12 +132,6 @@ span.flicker {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: radial-gradient(
-    ellipse 50% 35% at 50% 50%,
-    #6b1839,
-    transparent
-  );
-
   letter-spacing: 2;
   left: 50%;
   top: 50%;
