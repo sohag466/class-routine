@@ -109,8 +109,12 @@ tr{
 }
  
 .my_name{
-  color: #fff;text-align: center;font-size: 40px; border: 1px solid #fff;width: 400px;margin: auto;
+  color: #fff;text-align: center; border: 1px solid #fff;width: 520px;margin: auto;padding: 10px;
+  margin-top: 50px;transition: 1s;cursor: pointer;border-radius: 5px;
 }
 .my_name h1{
-  box-shadow: 0 0 0 0 solid #fff;text-align: center;padding: 20px;
+  box-shadow: 0 0 0 0 solid #fff;text-align: center;padding: 20px;font-size: 55px;
+}
+.my_name:hover{
+  background: #fff;color: #000;
 }
