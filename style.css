@@ -1,4 +1,7 @@
-
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   background: #10101E;
 }
@@ -9,6 +12,15 @@ body{
 }
 tr{
   line-height: 75px;
+}
+th.date_day2{
+  color:red;
+}
+th.date_day3{
+  color:red;
+}
+th.date_day5{
+  color:red;
 }
 .friday{
 	display: none;
@@ -39,14 +51,6 @@ tr{
 	text-align: center;
 
 }
-
-
-
-*{
-  margin: 0;
-  padding: 0;
-}
-
 .my_date-now{
 
   display: flex;
@@ -65,7 +69,6 @@ tr{
   -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(255, 255, 255, 0.1));
   transition: 0.5s;
   transition-property: background, box-shadow;
-  /* width: 722px; */
   width: 100%;
 }
 
@@ -307,9 +310,4 @@ span.flicker {
   to {
     opacity: 1;
   }
-}
-
-
-th{
-  color: red;
 }
