@@ -6,6 +6,12 @@ body{
   background: #10101E;
   color: #fff;
 }
+td{
+  border: 1px solid #fff;
+}
+th{
+  border: 1px solid rgb(166, 255, 0);
+}
 .full_routine{
 	text-align: center;
   font-size: 38px;
