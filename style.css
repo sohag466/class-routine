@@ -4,6 +4,7 @@
 }
 body{
   background: #10101E;
+  color: #fff;
 }
 .full_routine{
 	text-align: center;
@@ -13,7 +14,7 @@ body{
 tr{
   line-height: 75px;
 }
-th.date_day2{
+/* th.date_day2{
   color:red;
 }
 th.date_day3{
@@ -21,7 +22,7 @@ th.date_day3{
 }
 th.date_day5{
   color:red;
-}
+} */
 .friday{
 	display: none;
 	text-align: center;
